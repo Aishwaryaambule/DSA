@@ -11,13 +11,13 @@ public class Input {
     arr[2] = 348;
     arr[3] = 324;
     arr[4] = 3;
-    //[23,49,348,324,3]
+    //[23, 49, 348, 324, 3]
     // System.out.println(arr[3]);
 
     // input using for loops
-    // for(int i = 0; i < arr.length; i++){
-    //   arr[i] = in.nextInt();
-    // }
+    for(int i = 0; i < arr.length; i++){
+      arr[i] = in.nextInt();
+    }
     // System.out.print(Arrays.toString(arr));
 
     // for(int i = 0; i < arr.length; i++){

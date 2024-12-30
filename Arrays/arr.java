@@ -1,5 +1,5 @@
 public class arr {
-  public static void main(String[] args) {
+  public static void arr(String[] args) {
     // Q: store a roll number
     // int a = 51;
 
@@ -23,6 +23,11 @@ public class arr {
 
     String[] arr = new String [4];
     System.out.println(arr[0]);
+
+    // // Enhanced for loop
+    // for(String element : arr){
+    //   System.out.println(element);
+    // }
 
   }
 }
